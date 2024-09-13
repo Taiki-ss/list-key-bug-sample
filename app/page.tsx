@@ -1,9 +1,9 @@
 "use client";
 import { v7 as uuid } from "uuid";
 
-import { InputList } from "@/component/input-list";
 import { useState } from "react";
-import { InputItem } from "@/component/input";
+import { type InputItem } from "@/component/input";
+import { InputList } from "@/component/input-list";
 
 export default function Home() {
   const [items, setItems] = useState([] as InputItem[]);
