@@ -4,7 +4,7 @@ export type InputItem = {
 };
 
 export type InputProps = InputItem & {
-  onRemove: (id: string) => void;
+  onRemove: (id: InputItem["id"]) => void;
 };
 
 export function Input({ id, value, onRemove }: InputProps) {

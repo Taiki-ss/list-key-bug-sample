@@ -3,7 +3,7 @@ import { type InputItem, Input } from "./input";
 type InputListProps = {
   items: InputItem[];
   onAdd: () => void;
-  onRemove: (id: string) => void;
+  onRemove: (id: InputItem["id"]) => void;
 };
 
 export function InputList({ items, onAdd, onRemove }: InputListProps) {
