@@ -26,6 +26,7 @@
 - 解消するためには変更がないindexをkeyにセットするのはやめて必ず一意になるitem.idなどをkeyにセットすべきです
 - そうすることでitems更新前のDOMとは別のものとしてInputも意図通り更新されます
 
+[参考ドキュメント](https://ja.react.dev/learn/rendering-lists#keeping-list-items-in-order-with-key)
 
 ## Getting Started
 
